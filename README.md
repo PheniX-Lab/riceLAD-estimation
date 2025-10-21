@@ -31,13 +31,19 @@ Well-trained LAD estimation model, please download from the Google Drive:
 Notes: In the script, we pre-load the DINOv2-large model from the huggingFace website. We have downloaded, please downlaod it from the Google Drive and put it into the folder (47b73eefe95e8d44ec3623f8890bd894b6ea2d6c), then modify the pretrained_model_path in script (Line 39).  
 (https://drive.google.com/file/d/1aAa74J3sMCOshOVehldklWyyvURGDBsQ/view?usp=drive_link)
 
-# citation
-If our code or models help your work, please cite our paper:  
 
-@online{,  
-  title={},  
-  author={},  
-  Journal={},  
-  pages={},  
-  year={}  
-}
+## Citation
+If you use our project in your research or wish to refer to the results of the project, please use the following BibTeX entry.
+
+```bibtex
+@article{
+URL = {},
+author = { },
+title = {},
+journal = {},
+volume = {},
+number = {},
+pages = {},
+year = {},
+doi = {},
+
