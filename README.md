@@ -23,10 +23,10 @@ Before using this model, please check your virtual environment (See environment.
 Run the script inference_LAD_LoRA.py  
 please change the test_dataset_path (Line 128), model_path (Line 134), and output csv_path (Line 182).  
 Well-trained LAD estimation model, please download from the Google Drive:  
-.....  
+(https://drive.google.com/file/d/1Jert1xF1emxIw6ytJVBPHeN0G6O-uAxO/view?usp=sharing)
 
-Notes: In the script, we pre-load the DINOv2-large model from the huggingFace website. We have downloaded, please downlaod from the Google Drive, and modify the pretrained_model_path (Line 39).  
-....
+Notes: In the script, we pre-load the DINOv2-large model from the huggingFace website. We have downloaded, please downlaod it from the Google Drive and put it into the folder (47b73eefe95e8d44ec3623f8890bd894b6ea2d6c), then modify the pretrained_model_path in script (Line 39).  
+(https://drive.google.com/file/d/1aAa74J3sMCOshOVehldklWyyvURGDBsQ/view?usp=drive_link)
 
 # citation
 If our code or models help your work, please cite our paper:  
