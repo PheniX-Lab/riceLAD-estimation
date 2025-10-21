@@ -18,11 +18,15 @@ CUDA version: 12.0
 # virtual environment configuration
 Python verion: 3.8  
 Before using this model, please check your virtual environment (See environment.yml).  
-Notes: In the script, we pre-load the DINOv2-large model from the huggingFace website. Please make sure it is accessible.
 
 # LAD estiamtion
 Run the script inference_LAD_LoRA.py  
-please change the test_dataset_path (Line 128), model_path (Line 134), and output csv_path (Line 182).
+please change the test_dataset_path (Line 128), model_path (Line 134), and output csv_path (Line 182).  
+Well-trained LAD estimation model, please download from the Google Drive:  
+.....  
+
+Notes: In the script, we pre-load the DINOv2-large model from the huggingFace website. We have downloaded, please downlaod from the Google Drive, and modify the pretrained_model_path (Line 39).  
+....
 
 # citation
 If our code or models help your work, please cite our paper:  
