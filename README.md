@@ -1,7 +1,10 @@
 # riceLAD-estimation
-An end-to-end rice canopy leaf angle distribution (LAD) estimation model based on DINOv2 model was developed using 21,6000 sim2real images.  
+An end-to-end rice canopy leaf angle distribution (LAD) estimation model based on DINOv2 model was developed.  
+Through the Low-Rank Adaptation (LoRA), we fine-tuned the DINOv2 with 21,6000 images.  
 We can high-throughput extract field rice LAD from UAV captured RGB images using this model.  
 This is a well-trained model that can be directly used, just configure the required virtual environment.  
+
+![visizilization](https://github.com/user-attachments/assets/449775e6-76d1-439d-a4a6-3ee82ddc7b72)
 
 # Model  Architecture
 The model consists of two main components: a SOTA feature extraction module and a lightweight regression module.   
