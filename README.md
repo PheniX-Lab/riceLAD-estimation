@@ -6,6 +6,10 @@ This is a well-trained model that can be directly used, just configure the requi
 
 ![visizilization](https://github.com/user-attachments/assets/449775e6-76d1-439d-a4a6-3ee82ddc7b72)
 
+# sim2real dataset (open access)
+We share a part of the sim2real dataset (images+LAD label). For more data please contact with us.
+https://drive.google.com/drive/folders/137fmzRm98akPYIkOAcEbr6ZIAV58ogLM?usp=drive_link
+
 # Model  Architecture
 The model consists of two main components: a SOTA feature extraction module and a lightweight regression module.   
 1) The feature extraction module uses DINOv2, an open-source visual foundation model developed by Meta AI Laboratory.
